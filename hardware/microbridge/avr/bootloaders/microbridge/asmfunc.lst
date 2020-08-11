@@ -222,13 +222,13 @@
  221:asmfunc.S     **** 	ret
  222               	.endfunc
 DEFINED SYMBOLS
-           asmfunc.S:43     .text:00000000 init_spi
-           asmfunc.S:60     .text:0000000a dly_100us
-           asmfunc.S:80     .text:0000001a select
-           asmfunc.S:95     .text:00000020 deselect
-           asmfunc.S:109    .text:00000022 rcv_spi
-           asmfunc.S:123    .text:00000024 xmit_spi
-           asmfunc.S:148    .text:0000003e flash_erase
-           asmfunc.S:182    .text:0000005c flash_write
+           asmfunc.S:43     .text:0000000000000000 init_spi
+           asmfunc.S:60     .text:000000000000000a dly_100us
+           asmfunc.S:80     .text:000000000000001a select
+           asmfunc.S:95     .text:0000000000000020 deselect
+           asmfunc.S:109    .text:0000000000000022 rcv_spi
+           asmfunc.S:123    .text:0000000000000024 xmit_spi
+           asmfunc.S:148    .text:000000000000003e flash_erase
+           asmfunc.S:182    .text:000000000000005c flash_write
 
 NO UNDEFINED SYMBOLS

@@ -6,7 +6,7 @@ master branch is sdcard flash
 
 mechanics :
 
-The bootloader looks for byte in eeprom at address 0x1FF:
+The bootloader looks for byte in eeprom at address 0x63:
 	
 	-if it is set to 0xF0 bootloader will look for a bin file on the sdcard named 
 	 firmware.bin and use it to flash the firmware then reset the byte to 0xFF so it
